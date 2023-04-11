@@ -50,7 +50,7 @@ body{
     box-shadow: 7px 7px 20px 0px rgba(50, 50, 50, 0.22);
     padding: 40px;
     margin: 20px;
-    width: 350px;
+    width: 80vw;
     text-align: center;
     color: var(--title);
     transition: all 0.3s ease-out;
@@ -295,9 +295,8 @@ a{
     visibility: hidden;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
+
+
 
 
 
@@ -348,13 +347,30 @@ span{
 }
 
 
-
-
+::-webkit-scrollbar{
+    background-color: var(--bg-panel);
+    border-radius: 100px;
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-headings);
+    border-radius: 60px;
+}
 
 @media (max-width: 1000px){
     .cards-e{
         flex-direction: column;
     }
+    .card-e,
+    .card-ee{
+        width: 90vw;
+    }
+    
+    .icon img {
+        width: 80vw;
+    }
+
     .alunos{
         width: 100vw;
     }
@@ -370,6 +386,9 @@ span{
 
     .info{
         font-size: 6pt;
+    }
+    ::-webkit-scrollbar{
+        display: none;
     }
 }
 
