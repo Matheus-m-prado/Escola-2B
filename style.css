@@ -50,7 +50,8 @@ body{
     box-shadow: 7px 7px 20px 0px rgba(50, 50, 50, 0.22);
     padding: 40px;
     margin: 20px;
-    width: 80vw;
+    width: 100vw;
+    max-width: 50vw;
     text-align: center;
     color: var(--title);
     transition: all 0.3s ease-out;
@@ -78,6 +79,7 @@ a{
 }
 .aluno img{
     width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid var(--roxo);
 }
@@ -311,7 +313,7 @@ a{
 .fundo{
     width: 100vw;
     height: 40vh;
-    background-image: url(img/arvore.jpg);
+    background-image: url(img/FundoArthur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.05;
@@ -325,6 +327,7 @@ a{
     border: 2px solid var(--roxo);
     margin-top: -15vh;
     width: 15vw;
+    height: 15vw;
     z-index: 999;
     position: relative;
     transition: all 0.5s ease;
@@ -340,10 +343,13 @@ a{
     font-size: 10pt;
     margin-top: 1vw;
     transition: background 0.5s;
+    max-width: 70vw;
 }
 
+
 span{
-    color: #fc5757;
+    color: #c28cff;
+
 }
 
 
@@ -359,6 +365,9 @@ span{
 }
 
 @media (max-width: 1000px){
+    .card{
+        max-width: 80vw;
+    }
     .cards-e{
         flex-direction: column;
     }
@@ -381,11 +390,13 @@ span{
 
     .avatar img{
         width: 40vw;
+        height: 40vw;
         margin-top: -10vh;
     }
 
     .info{
         font-size: 6pt;
+        max-width: 80vw;
     }
     ::-webkit-scrollbar{
         display: none;
