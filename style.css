@@ -316,7 +316,7 @@ a{
     background-image: url(img/FundoArthur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.05;
+    opacity: 0.5;
     background-position-y: center;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
