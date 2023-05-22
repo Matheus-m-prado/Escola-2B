@@ -378,6 +378,9 @@ span {
   .fundo {
     height: 25vh;
   }
+  .fundo-a {
+    height: 25vh;
+  }
 
   .avatar img {
     width: 40vw;
