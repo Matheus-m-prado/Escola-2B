@@ -340,7 +340,11 @@ a {
   max-width: 70vw;
 }
 
-span {
+span{
+  color: #da3333;
+}
+
+.art span{
   color: #c28cff;
 }
 
