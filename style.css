@@ -50,7 +50,7 @@ body {
   padding: 40px;
   margin: 20px;
   width: 100vw;
-  max-width: 50vw;
+  max-width: 35vw;
   text-align: center;
   color: var(--title);
   transition: all 0.3s ease-out;
