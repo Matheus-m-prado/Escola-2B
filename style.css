@@ -297,24 +297,21 @@ a {
 .fundo {
   width: 100vw;
   height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-position-y: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   background-image: url(img/arvore.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  background-position-y: center;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
-.fundo-a {
-  width: 100vw;
-  height: 40vh;
+.arthur {
   background-image: url(img/FundoArthur.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  background-position-y: center;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+
+}
+.eveL{
+  background-image: url(img/fundoEve.jpg);
+  background-position: top;
 }
 
 .avatar img {
@@ -338,7 +335,7 @@ a {
   font-size: 10pt;
   margin-top: 1vw;
   transition: background 0.5s;
-  max-width: 70vw;
+  max-width: 40vw;
 }
 
 span{
