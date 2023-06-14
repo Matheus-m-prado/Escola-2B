@@ -313,7 +313,6 @@ a {
   background-image: url(img/fundoEve.jpg);
   background-position: top;
 }
-
 .avatar img {
   border-radius: 50%;
   border: 2px solid var(--roxo);
